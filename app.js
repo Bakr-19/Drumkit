@@ -12,12 +12,16 @@ let display6 = document.querySelector('.display6')
 
 let displaybox = document.querySelector('.displaybox')
 
+let text = document.querySelector('.text')
+
 let audio = new Audio()
 let audio1 = new Audio()
 let audio2 = new Audio()
 let audio3 = new Audio()
 let audio4 = new Audio()
 let audio5 = new Audio()
+
+
 
 
 
@@ -37,6 +41,7 @@ document.addEventListener('keydown', (event) => {
     displaybox.textContent = 'Boom'
 
   }
+
 
 })
 
