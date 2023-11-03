@@ -1,0 +1,99 @@
+
+
+
+.frame{
+
+
+
+}
+/*-----------------------------Top----------------------------------*/
+
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-width: none;
+  width: 100%;
+  min-height: 20vh;
+  background-color: rgba(97, 154, 12, 0.851);
+
+
+}
+
+.displaybox{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.851);
+  box-sizing: border-box;
+  width: 400px;
+  height: 100px;
+  background-image: url(./Images/LCD.png);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 80px;
+
+  
+}
+
+
+
+/*-----------------------------Middle----------------------------------*/
+
+.middle{
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: red;
+  width: 100%;
+  min-height: 50vh;
+
+}
+
+
+.display1, .display2, .display3, .display4, .display5, .display6{
+  width: 18%;
+  border-style: solid;
+  border-color: red;
+  background-color: aliceblue;
+  cursor: pointer;
+
+}
+
+
+
+
+/*----------------------------Bottom-----------------------------------*/
+
+.bottom{
+  border-style: solid;
+  border-color: red;
+  width: 100%;
+  min-height: 50vh;
+
+
+
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+h1{
+  position: relative;
+  bottom: 70px;
+  text-align: center;
+
+}
+
+body{
+background-color: rgba(97, 154, 12, 0.851);
+}
+
+h1{
+  color: white;
+}
+
+p{
+  color: white;
+}
